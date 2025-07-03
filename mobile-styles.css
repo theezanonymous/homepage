@@ -1,0 +1,38 @@
+@media (width<600px){
+    .profile{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 2fr 1fr;
+        gap: 3vh;
+        
+    }
+    .pfpCaption{
+        position: relative; bottom: calc(10%-30vh); left: 8%;
+    }
+    .bio{
+        box-shadow: none; margin-top: -30vw; 
+    }
+    .bioIcons{
+        justify-content: center;
+    }
+    .bioHeader{
+        text-align: center;
+    }
+    .projects{
+        margin-top: 75vh;
+    }
+    .contact{
+        display: grid; 
+        grid-template-columns: 1fr;
+        grid-auto-flow: row; height: 70vh;
+    }
+    .contactImg{
+        width: 100vw; height: 40vh;
+        object-fit: cover; scale: 1.5;
+
+    }
+    .contactBody .bioIcons{
+        justify-content: center; 
+    }
+
+}
