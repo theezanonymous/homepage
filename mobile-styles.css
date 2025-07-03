@@ -1,4 +1,8 @@
 @media (width<600px){
+    body{
+        overflow-x:hidden;
+        max-width: 100vw;
+    }
     .profile{
         display: grid;
         grid-template-columns: 1fr;
